@@ -1,0 +1,12 @@
+name: Make a request to Render every 14 minutes
+
+on:
+  schedule:
+    - cron: "*/14 * * * *"
+
+jobs:
+  render-request:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Products
+        run: curl https://medusa-server-8pqu.onrender.com/store/products
