@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@medusajs/admin": "7.1.17",
-    "@medusajs/cache-inmemory": "^1.8.9",
+    "@medusajs/cache-inmemory": "^2.0.2",
     "@medusajs/cache-redis": "^2.0.2",
     "@medusajs/event-bus-local": "^2.0.1",
     "@medusajs/event-bus-redis": "^2.0.2",
